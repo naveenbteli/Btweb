@@ -165,9 +165,10 @@ const Footer = () => {
         <Link href="/">
           <a className="flex items-center justify-items-center" href="/">
             <Image
-              src="AuctionHouse.png"
+              src="https://rvce.edu.in/sites/default/files/logo_0.png"
               alt="logo"
-              className="m-5 h-full w-20"
+              height={50}
+              width={50}
             />
           </a>
         </Link>

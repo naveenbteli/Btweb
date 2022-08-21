@@ -4,6 +4,8 @@ import React from "react";
 
 const About: NextPage = () => {
   const [open, setOpen] = React.useState(false);
+  const [open2, setOpen2] = React.useState(false);
+  const [open3, setOpen3] = React.useState(false);
 
   return (
     <>
@@ -74,7 +76,11 @@ const About: NextPage = () => {
                   THE CONFERENCE
                 </h3>
 
-                <p className="mt-1 text-sm text-gray-300 text-center hidden">
+                <p
+                  className={`mt-1 text-sm text-gray-300 text-center ${
+                    !open2 ? "hidden" : ""
+                  }`}
+                >
                   The International conference on “Healthcare using Artificial
                   Intelligence and Machine Learning” primarily focuses on
                   identifying multiple ways to integrate the two distinct
@@ -85,8 +91,8 @@ const About: NextPage = () => {
                   the research community for the future.
                 </p>
                 <div className="flex flex-row justify-center mt-5">
-                  <Button>
-                    <svg
+                  <Button onClick={() => setOpen2((open) => !open)}>
+                    <svg  
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
@@ -108,7 +114,11 @@ const About: NextPage = () => {
                   BANGALORE BIOINNOVATION CENTRE
                 </h3>
 
-                <p className="mt-1 text-sm text-gray-300 text-center hidden">
+                <p
+                  className={`mt-1 text-sm text-gray-300 text-center ${
+                    !open3 ? "hidden" : ""
+                  }`}
+                >
                   <div className="grid place-items-center">
                     <Image
                       src="https://www.bioinnovationcentre.com/storage/app/media/images/logo2.png"
@@ -126,7 +136,7 @@ const About: NextPage = () => {
                   amet. Ut mollis placerat leo.
                 </p>
                 <div className="flex flex-row justify-center mt-5">
-                  <Button>
+                  <Button onClick={() => setOpen3((open) => !open)}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
