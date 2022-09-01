@@ -178,7 +178,7 @@ const Footer = () => {
             {new Date().getFullYear() === 2022
               ? ""
               : "- " + new Date().getFullYear()}{" "}
-            Prajwal P
+            Prajwal P Naveen B Teli
           </p>
           <div>
             <p className="text-sm text-gray-500">
@@ -189,7 +189,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/prajwal-prakash-a3b9931b3/"
                 rel="noreferrer"
               >
-                Prajwal P,{" "}
+                Prajwal P,Naveen B Teli{" "}
               </a>
             </p>
             <Tooltip label="Contact ME">
@@ -209,7 +209,7 @@ const Layout = ({ children }: any) => {
     <AppShell
       padding="md"
       header={
-        <Header height={130}>
+        <Header height={70}>
           <NavBar />
         </Header>
       }
