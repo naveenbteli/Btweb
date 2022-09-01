@@ -8,15 +8,11 @@ const SpeakerCard = ({ profile }: any) => {
         <div className="flex flex-col items-center p-10">
           <img
             className="mb-3 w-24 h-24 rounded-full shadow-lg"
-            src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
-            alt="Bonnie image"
+            src="https://ik.imagekit.io/tf4mccdje/prajwal_Mjvs5REg4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662013248173"
+            alt="Prajwal P"
           />
-          <h5 className="mb-1 text-xl font-medium text-white">
-            Bonnie Green
-          </h5>
-          <span className="text-sm text-gray-400">
-            Visual Designer
-          </span>
+          <h5 className="mb-1 text-xl font-medium text-white">Prajwal P</h5>
+          <span className="text-sm text-gray-400">Web Master</span>
         </div>
       </div>
     </div>

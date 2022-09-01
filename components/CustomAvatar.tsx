@@ -9,7 +9,7 @@ const CustomAvatar = () => {
         <div className="flex flex-col items-center justify-between">
           <div>
             <Avatar
-              src={null}
+              src="https://ik.imagekit.io/tf4mccdje/prajwal_Mjvs5REg4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662013248173"
               alt="no image here"
               color="indigo"
               size={200}
