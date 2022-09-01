@@ -1,7 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-table {
-  @apply overflow-x-auto;
-}
+@import url('https://rsms.me/inter/inter.css');

@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { MantineProvider, createEmotionCache } from "@mantine/core";
@@ -45,7 +46,7 @@ export default function App(props: AppProps) {
         withNormalizeCSS
         theme={{
           /** Put your mantine theme override here */
-          colorScheme: "light",
+          colorScheme: "dark",
           primaryColor: "indigo",
           fontFamily: "sans-serif",
         }}
