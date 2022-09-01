@@ -53,8 +53,8 @@ const Links: Array<{
 const NavBar2 = () => {
   return (
     <header>
-      <div className="mx-auto max-w-screen-xl p-4">
-        <div className="flex items-center justify-around space-x-4 lg:space-x-10">
+      <div className="mx-auto max-w-screen-xl p-4 ">
+        <div className="flex items-center justify-around space-x-4  lg:space-x-10">
           <div className="flex lg:w-0 lg:flex-1">
             <Link href="/">
               <a className="flex items-center" href="/">
@@ -98,13 +98,13 @@ const NavBar = () => {
   const router = useRouter();
   return (
     <header>
-      <div className="mx-auto max-w-screen-xl p-4">
+      <div className="mx-auto max-w-screen-xl p-4 bg-[#0D1117]">
         <div className="flex items-center justify-center space-x-4 lg:space-x-10">
           <nav className="hidden space-x-8 text-sm font-medium md:flex">
             {Links.map((link) => (
               <Link href={link.href} key={JSON.stringify(link)}>
                 <a
-                  className="text-gray-500 hover:text-indigo-400"
+                  className="text-white-500 font-bold hover:text-indigo-400"
                   href={link.href}
                 >
                   {link.label}
@@ -173,7 +173,7 @@ const Footer = () => {
           </a>
         </Link>
         <div className="mt-8 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between">
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-white-500 font-bold">
             &copy; 2022
             {new Date().getFullYear() === 2022
               ? ""
