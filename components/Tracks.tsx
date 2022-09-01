@@ -1,6 +1,7 @@
 import React from "react";
 import TrackCard from "./TrackCard";
 import Schedule from "./Schedule";
+import { Controls, Player } from "@lottiefiles/react-lottie-player";
 
 const tracks = [
   {
@@ -30,9 +31,21 @@ const Tracks = () => {
               <TrackCard track={track} key={track.name} />
             ))}
           </div>
+          <div className="hidden lg:block">
+            <Player
+              autoplay
+              loop
+              src="https://assets6.lottiefiles.com/packages/lf20_6eo6rw2s.json"
+              style={{ height: "60%", width: "100%" }}
+              className="asset"
+              speed={0.5}
+            >
+              <Controls visible={false} />
+            </Player>
+          </div>
         </div>
       </div>
-      <Schedule/>
+      <Schedule />
     </aside>
   );
 };

@@ -4,7 +4,7 @@ import React from "react";
 const Schedule = () => {
   return (
     <div className="container bg-[#0D1117]'-200 mx-auto w-full h-full">
-      <h1 className="text-6xl mb-3 leading-snug text-transparent font-semibold bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
+      <h1 className="text-4xl mb-3 leading-snug text-transparent font-semibold bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500 lg:text-6xl">
         Schedule
       </h1>
       <div className="relative wrap overflow-hidden p-10 h-full">

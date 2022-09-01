@@ -39,15 +39,13 @@ const MainPage = () => {
           <Player
             autoplay
             loop
-            src="https://assets2.lottiefiles.com/private_files/lf30_7gz6mq4o.json"
+            // src="https://assets2.lottiefiles.com/private_files/lf30_7gz6mq4o.json"
+            src="https://assets2.lottiefiles.com/private_files/lf30_m075yjya.json"
             style={{ height: "100%", width: "100%" }}
             className="asset"
             speed={0.5}
           >
-            <Controls
-              visible={false}
-              buttons={["play", "repeat", "frame", "debug"]}
-            />
+            <Controls visible={false} />
           </Player>
         </div>
       </aside>
