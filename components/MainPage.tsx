@@ -8,7 +8,7 @@ const MainPage = () => {
       <aside className="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center bg-[#0D1117] min-h-fit">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="max-w-fit mx-auto text-center sm:text-left">
-            <h1 className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 lg:text-7xl">
+            <h1 className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-600 lg:text-7xl">
               International Conference on Artificial Intelligence and Machine
               Learning in BIOSCIENCES
             </h1>

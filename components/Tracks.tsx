@@ -35,9 +35,9 @@ const Tracks = () => {
             <Player
               autoplay
               loop
-              // src="https://assets6.lottiefiles.com/packages/lf20_6eo6rw2s.json"
-              src="https://assets10.lottiefiles.com/packages/lf20_cignkatp.json"
-              style={{ height: "60%", width: "60%" }}
+              src="https://assets6.lottiefiles.com/packages/lf20_6eo6rw2s.json"
+              // src="https://assets10.lottiefiles.com/packages/lf20_cignkatp.json"
+              style={{ height: "60%", width: "80%" }}
               className="asset"
               speed={0.5}
             >

@@ -19,7 +19,9 @@ const Reg = () => {
               gradient={{ from: "teal", to: "blue", deg: 60 }}
               className="mt-2"
             >
-              Register Now
+              <a href="https://easychair.org/conferences/?conf=aimlbio2022">
+              Paper Submission Link
+              </a>
             </Button>
           </div>
         </div>
