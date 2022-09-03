@@ -11,7 +11,7 @@ const MainPage = () => {
           <div className="max-w-fit mx-auto text-center sm:text-left">
             <motion.h1
               animate={{ pathLength: 1 }}
-              transition={{ duration: 5, type:"tween"}}
+              transition={{ duration: 4, type:"tween"}}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
