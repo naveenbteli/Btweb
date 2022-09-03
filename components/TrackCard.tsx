@@ -1,10 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import { Image } from "@mantine/core";
 import React from "react";
+import { motion } from "framer-motion";
 
 const TrackCard = ({ track }: any) => {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+    >
       {/* <div className="p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl"> */}
       <div className="block p-6 bg-[#0D1117] sm:p-8 rounded-xl">
         <div className="sm:pr-8 max-w-lg lg:max-w-2xl">
@@ -18,7 +23,9 @@ const TrackCard = ({ track }: any) => {
               />
             </div>
             <div>
-              <h5 className="text-2xl font-bold text-slate-50 lg:text-5xl">{track.name}</h5>
+              <h5 className="text-2xl font-bold text-slate-50 lg:text-5xl">
+                {track.name}
+              </h5>
               <p className="mt-2 text-sm text-gray-500 font-sans">
                 {track.description}
               </p>
@@ -27,7 +34,7 @@ const TrackCard = ({ track }: any) => {
         </div>
       </div>
       {/* </div> */}
-    </div>
+    </motion.div>
   );
 };
 

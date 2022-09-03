@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import {Player, Controls} from '@lottiefiles/react-lottie-player';
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+import { motion } from "framer-motion";
 
 const MainPage = () => {
   return (
@@ -8,10 +9,17 @@ const MainPage = () => {
       <aside className="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center bg-[#0D1117] min-h-fit">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="max-w-fit mx-auto text-center sm:text-left">
-            <h1 className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-600 lg:text-7xl">
+            <motion.h1
+              animate={{ pathLength: 1 }}
+              transition={{ duration: 2, type: "spring" }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-600 lg:text-7xl"
+            >
               International Conference on Artificial Intelligence and Machine
               Learning in BIOSCIENCES
-            </h1>
+            </motion.h1>
 
             <p className="text-slate-200 md:mt-4 md:block text-xl">
               8-10 December, 2022

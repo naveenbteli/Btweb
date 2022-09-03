@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { motion } from "framer-motion";
 
 const SpeakerCard = ({ profile }: any) => {
   return (
-    <div>
+    <motion.div layoutId="underline">
       <div className="w-full max-w-2xl rounded-lg border p-8 shadow-md bg-gray-800 border-gray-700">
         <div className="flex flex-col items-center p-10">
           <img
@@ -15,7 +16,7 @@ const SpeakerCard = ({ profile }: any) => {
           <span className="text-sm text-gray-400">Web Master</span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
