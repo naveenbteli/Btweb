@@ -50,56 +50,68 @@ const Links: Array<{
   },
 ];
 
-const NavBar2 = () => {
-  return (
-    <header>
-      <div className="mx-auto max-w-screen-xl p-4 ">
-        <div className="flex items-center justify-around space-x-4  lg:space-x-10">
-          <div className="flex lg:w-0 lg:flex-1">
-            <Link href="/">
-              <a className="flex items-center" href="/">
-                <Image
-                  src="https://rvce.edu.in/sites/default/files/logo_0.png"
-                  alt="logo"
-                  className=" mt-5 h-full w-20"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="flex lg:w-0 lg:flex-1">
-            <Link href="/">
-              <a className="flex items-center" href="/">
-                <Image
-                  src="https://rvce.edu.in/sites/default/files/logo_0.png"
-                  alt="logo"
-                  className=" mt-5 h-full w-20"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="flex lg:w-0 lg:flex-1">
-            <Link href="/">
-              <a className="flex items-center" href="/">
-                <Image
-                  src="https://rvce.edu.in/sites/default/files/logo_0.png"
-                  alt="logo"
-                  className=" mt-5 h-full w-20"
-                />
-              </a>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </header>
-  );
-};
+// const NavBar2 = () => {
+//   return (
+//     <header>
+//       <div className="mx-auto max-w-screen-xl p-4 ">
+//         <div className="flex items-center justify-around space-x-4  lg:space-x-10">
+//           <div className="flex lg:w-0 lg:flex-1">
+//             <Link href="/">
+//               <a className="flex items-center" href="/">
+//                 <Image
+//                   src="https://rvce.edu.in/sites/default/files/logo_0.png"
+//                   alt="logo"
+//                   className=" mt-5 h-full w-20"
+//                 />
+//               </a>
+//             </Link>
+//           </div>
+//           <div className="flex lg:w-0 lg:flex-1">
+//             <Link href="/">
+//               <a className="flex items-center" href="/">
+//                 <Image
+//                   src="https://rvce.edu.in/sites/default/files/logo_0.png"
+//                   alt="logo"
+//                   className=" mt-5 h-full w-20"
+//                 />
+//               </a>
+//             </Link>
+//           </div>
+//           <div className="flex lg:w-0 lg:flex-1">
+//             <Link href="/">
+//               <a className="flex items-center" href="/">
+//                 <Image
+//                   src="https://rvce.edu.in/sites/default/files/logo_0.png"
+//                   alt="logo"
+//                   className=" mt-5 h-full w-20"
+//                 />
+//               </a>
+//             </Link>
+//           </div>
+//         </div>
+//       </div>
+//     </header>
+//   );
+// };
 
 const NavBar = () => {
   const router = useRouter();
   return (
-    <header>
+    <header >
+      <div className="bg-[#0d1117] flex basis-4			">
+        <div className=" ml-10 grid place-items-center">
+                    <Image
+                      src="https://rvce.edu.in/sites/default/files/logo_0.png"
+                      alt="RVCE Logo"
+                      height={70}
+                      width={70}
+                    />
+                  </div>
       <div className="mx-auto max-w-screen-xl p-4 bg-[#0D1117]">
+      
         <div className="flex items-center justify-center space-x-4 lg:space-x-10">
+         
+                 
           <nav className="hidden space-x-8 text-sm font-medium md:flex">
             {Links.map((link) => (
               <Link href={link.href} key={JSON.stringify(link)}>
@@ -112,6 +124,8 @@ const NavBar = () => {
               </Link>
             ))}
           </nav>
+         
+
           <div className="lg:hidden">
             <Menu>
               <Menu.Target>
@@ -152,15 +166,26 @@ const NavBar = () => {
               </Menu.Dropdown>
             </Menu>
           </div>
+
+          
         </div>
       </div>
+      <div className="grid place-items-center mr-10">
+                    <Image
+                      src="https://www.bioinnovationcentre.com/storage/app/media/images/logo2.png"
+                      alt="BIC Logo"
+                      height={65}
+                      width={175}
+                    />
+     </div>
+     </div>
     </header>
   );
 };
 
 const Footer = () => {
   return (
-    <footer className="static bottom-0 w-[100%] bg-[0d111f]">
+    <footer className="static bottom-0 w-[100%] bg-[#0d1117]">
       <div className=" mx-auto flex max-w-screen-xl flex-col items-center px-4 py-16 sm:px-6 lg:block lg:px-8">
         <Link href="/">
           <a className="flex items-center justify-items-center" href="/">
@@ -208,7 +233,7 @@ const Layout = ({ children }: any) => {
   return (
     <AppShell
    
-      padding="md"
+      padding="0"
       header={
         <Header height={70}>
           <NavBar />

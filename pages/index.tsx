@@ -60,12 +60,15 @@ import Reg from "../components/Reg";
 const Home: NextPage = () => {
   return (
     <>
-      <MainPage />
+    <div className="bg=[#0d1117]">
+    <MainPage />
       <About1/>
       <Tracks />
       <Committee />
       <Speakers />
       <Reg />
+      
+    </div>
       
     </>
   );
