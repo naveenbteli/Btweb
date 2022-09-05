@@ -7,11 +7,11 @@ const MainPage = () => {
   return (
     <>
       <aside className="overflow-hidden sm:grid sm:grid-cols-2 sm:items-center bg-[#0D1117] min-h-fit">
-        <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div className="p-8 md:p-12 lg:px-16 lg:py-16">
           <div className="max-w-fit mx-auto text-center sm:text-left">
             <motion.h1
               animate={{ pathLength: 1 }}
-              transition={{ duration: 4, type:"tween"}}
+              transition={{ duration: 4, type: "tween" }}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -22,7 +22,15 @@ const MainPage = () => {
             </motion.h1>
 
             <p className="text-slate-200 md:mt-4 md:block text-xl">
-              8-10 December, 2022
+              {/* 8-10 December, 2022 */}
+              The International conference on “Healthcare using Artificial
+              Intelligence and Machine Learning” primarily focuses on
+              identifying multiple ways to integrate the two distinct domains,
+              thereby changing the global outlook on healthcare. This conference
+              emphasises on bringing experts to discuss the emerging trends and
+              recent challenges in the field. It also focuses on contributing to
+              the healthcare sector and equips the research community for the
+              future.
             </p>
 
             <div className="mt-4 md:mt-8">

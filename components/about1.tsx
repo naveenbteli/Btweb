@@ -1,122 +1,29 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
 
 const about1 = () => {
   return (
     <>
-    <div className=" bg-[#0D1117] p-8 md:p-12 lg:px-16 lg:py-24 ">
+      <section className="relative bg-gray-600">
+        <img
+          className="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
+          src="https://www.educationworld.in/wp-content/uploads/2013/06/Untitled-design-4-1.jpg"
+          alt="Couple on a bed with a dog"
+        />
 
+        <div className="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-gray-900 sm:to-transparent"></div>
 
-      <h1 className="text-6xl mb-3 leading-snug text-transparent font-semibold bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
-        About
-      </h1>
-      <div className="flex flex-col items-center gap-16 sm:flex-row-reverse ">
-        
-      <div>
-          <a
-            className="block p-8 bg-gray-900 border border-gray-800 shadow-xl rounded-xl max-w-sm"
-            href=""
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-blue-400"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
+        <div className="relative px-4 py-32 mx-auto max-w-screen-2xl lg:h-screen lg:items-center lg:flex">
+          <div className="max-w-xl text-center sm:text-left">
+            <h1 className="text-3xl font-extrabold sm:text-5xl">
+              About:
+              <strong className="font-extrabold text-rose-700 sm:block">
+                R V College Of Engineering
+              </strong>
+            </h1>
 
-            <h3 className="mt-3 text-xl font-bold text-white">
-            BANGALORE BIOINNOVATION CENTRE
-            </h3>
-
-            <p className="mt-4 text-xl text-gray-300 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-              eleifend tincidunt euismod. Nunc neque lacus, auctor quis egestas
-              sollicitudin, vestibulum eget sem. Nulla congue tincidunt
-              pellentesque. Vivamus eget nunc massa. Nam sit amet orci quis
-              mauris bibendum aliquam. Nullam ut placerat lacus. Duis feugiat
-              lacinia risus, vitae rhoncus dolor aliquam sit amet. Ut mollis
-              placerat leo.
-            </p>
-          </a>
-        </div>
-
-
-        <div>
-          <a
-            className="block p-8 bg-gray-900 border border-gray-800 shadow-xl rounded-xl max-w-sm"
-            href=""
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-blue-400"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
-
-            <h3 className="mt-3 text-xl font-bold text-white">
-              The conference
-            </h3>
-
-            <p className="mt-4 text-xl text-gray-300">
-              The International conference on “Healthcare using Artificial
-              Intelligence and Machine Learning” primarily focuses on
-              identifying multiple ways to integrate the two distinct domains,
-              thereby changing the global outlook on healthcare. This conference
-              emphasises on bringing experts to discuss the emerging trends and
-              recent challenges in the field. It also focuses on contributing to
-              the healthcare sector and equips the research community for the
-              future.
-            </p>
-          </a>
-        </div>
-
-      
-        <div>
-          <a
-            className="block p-8 bg-gray-900 border border-gray-800 shadow-xl rounded-xl max-w-sm"
-            href=""
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-blue-400"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
-
-            <h3 className="mt-3 text-xl font-bold text-white">
-              R V College of engineering
-            </h3>
-
-            <p className="mt-4 text-sm text-gray-300">
+            <p className="max-w-full mt-4 sm:leading-relaxed sm:text-xl">
               R.V. College of Engineering (RVCE), established in 1963, is one of
               the oldest self-financing premier institutions in the country. It
               is an Autonomous Institution, Affiliated to Visvesvaraya
@@ -133,12 +40,19 @@ const about1 = () => {
               patents since last three years, of which 27 patents have been
               published in the gazette of Indian Patent journal.
             </p>
-          </a>
+
+            <div className="flex flex-wrap mt-8 text-center gap-4">
+              <a
+                className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring"
+                href="www.rvce.edu.in"
+                target="blank"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
         </div>
-
-      </div>
-
-      </div>
+      </section>
     </>
   );
 };

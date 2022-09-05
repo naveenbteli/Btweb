@@ -4,6 +4,7 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import { MantineProvider, createEmotionCache } from "@mantine/core";
 import Layout from "../components/Layout";
+import { RouterTransition } from "../components/RouterContext";
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
@@ -52,6 +53,7 @@ export default function App(props: AppProps) {
         }}
         emotionCache={tailWindCache}
       >
+        <RouterTransition />
         <Layout>
           <Component {...pageProps} />
         </Layout>
