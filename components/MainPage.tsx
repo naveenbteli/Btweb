@@ -22,7 +22,8 @@ const MainPage = () => {
             </motion.h1>
 
             <p className="text-slate-200 md:mt-4 md:block text-xl">
-             8-10 December, 2022 
+               
+             8 -10 December, 2022 
               
             </p>
 
