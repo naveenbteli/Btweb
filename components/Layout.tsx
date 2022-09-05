@@ -235,8 +235,11 @@ const Footer = () => {
 const Layout = ({ children }: any) => {
   return (
     <AppShell
-   
-      padding="0"
+      style={
+        {
+          padding: "0",
+        }
+    }
       header={
         <Header height={70}>
           <NavBar />
