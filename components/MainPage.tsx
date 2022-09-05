@@ -22,15 +22,8 @@ const MainPage = () => {
             </motion.h1>
 
             <p className="text-slate-200 md:mt-4 md:block text-xl">
-              {/* 8-10 December, 2022 */}
-              The International conference on “Healthcare using Artificial
-              Intelligence and Machine Learning” primarily focuses on
-              identifying multiple ways to integrate the two distinct domains,
-              thereby changing the global outlook on healthcare. This conference
-              emphasises on bringing experts to discuss the emerging trends and
-              recent challenges in the field. It also focuses on contributing to
-              the healthcare sector and equips the research community for the
-              future.
+             8-10 December, 2022 
+              
             </p>
 
             <div className="mt-4 md:mt-8">
