@@ -25,13 +25,13 @@ const Tracks = () => {
         <h1 className="text-6xl mb-3 leading-snug text-transparent font-semibold bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
           Conference Themes 
         </h1>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-around">
           <div className="grid grid-cols-1 place-items-start gap-8">
             {tracks.map((track) => (
               <TrackCard track={track} key={track.name} />
             ))}
           </div>
-          <div className="hidden lg:block">
+          <div className="hidden lg:block ">
             <Player
               autoplay
               loop

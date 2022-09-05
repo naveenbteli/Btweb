@@ -9,7 +9,7 @@ const about1 = () => {
       <h1 className="text-6xl mb-3 leading-snug text-transparent font-semibold bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
         About
       </h1>
-      <div className="flex flex-col items-center gap-16 sm:flex-row-reverse ">
+      <div className="flex flex-col-reverse items-center gap-16 sm:flex-row-reverse ">
 
       <div>
           <a
@@ -37,7 +37,7 @@ const about1 = () => {
             BANGALORE BIOINNOVATION CENTRE
             </h3>
 
-            <p className="mt-4 text-xl text-gray-300 ">
+            <p className="mt-4 text-xl text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
               eleifend tincidunt euismod. Nunc neque lacus, auctor quis egestas
               sollicitudin, vestibulum eget sem. Nulla congue tincidunt
@@ -76,7 +76,7 @@ const about1 = () => {
               The conference
             </h3>
 
-            <p className="mt-4 text-xl text-gray-300">
+            <p className="mt-4 text-xl text-gray-300 	">
               The International conference on “Healthcare using Artificial
               Intelligence and Machine Learning” primarily focuses on
               identifying multiple ways to integrate the two distinct domains,
@@ -116,7 +116,7 @@ const about1 = () => {
               R V College of engineering
             </h3>
 
-            <p className="mt-4 text-sm text-gray-300">
+            <p className="mt-4 text-sm text-gray-300 	">
               R.V. College of Engineering (RVCE), established in 1963, is one of
               the oldest self-financing premier institutions in the country. It
               is an Autonomous Institution, Affiliated to Visvesvaraya

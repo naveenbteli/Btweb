@@ -14,7 +14,7 @@ const Links: Array<{
   },
   {
     href: "/about",
-    label: "About Us",
+    label: "About",
   },
   {
     href: "/themes",
@@ -46,7 +46,7 @@ const Links: Array<{
   },
   {
     href: "/contact",
-    label: "Contact Us",
+    label: "Contact",
   },
 ];
 
@@ -98,14 +98,14 @@ const NavBar = () => {
   const router = useRouter();
   return (
     <header >
-      <div className="bg-[#0d1117] flex basis-4			">
-        <div className=" ml-10 grid place-items-center">
-                    <Image
+      <div className="bg-[#0d1117] flex basis-4	">
+        <div className=" ml-10 grid place-items-center ">
+                   <a href="https://www.rvce.edu.in/"><Image
                       src="https://rvce.edu.in/sites/default/files/logo_0.png"
                       alt="RVCE Logo"
                       height={70}
                       width={70}
-                    />
+                    /></a> 
                   </div>
       <div className="mx-auto max-w-screen-xl p-4 bg-[#0D1117]">
       
@@ -125,12 +125,22 @@ const NavBar = () => {
             ))}
           </nav>
          
-
+          <div className="grid place-items-center mr-10">
+                   <a href="https://www.bioinnovationcentre.com/
+                   ">
+                    <Image
+                      src="https://www.bioinnovationcentre.com/storage/app/media/images/logo2.png"
+                      alt="BIC Logo "
+                      height={65}
+                      width={175}
+                    />
+                    </a> 
+     </div>
           <div className="lg:hidden">
             <Menu>
               <Menu.Target>
                 <button
-                  className="rounded-lg bg-[#1A1B1E] p-2 text-gray-600"
+                  className="rounded-lg bg-[#1A1B1E] p-2  text-white	"
                   type="button"
                   name="Mobile Navigation Menu"
                 >
@@ -157,7 +167,7 @@ const NavBar = () => {
                 {Links.map((link) => (
                   <Menu.Item key={link.label}>
                     <Link href={link.href}>
-                      <a className="text-gray-500" href="/">
+                      <a className="text-white " href="/">
                         {link.label}
                       </a>
                     </Link>
@@ -170,14 +180,7 @@ const NavBar = () => {
           
         </div>
       </div>
-      <div className="grid place-items-center mr-10">
-                    <Image
-                      src="https://www.bioinnovationcentre.com/storage/app/media/images/logo2.png"
-                      alt="BIC Logo"
-                      height={65}
-                      width={175}
-                    />
-     </div>
+     
      </div>
     </header>
   );
