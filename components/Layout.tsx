@@ -14,7 +14,7 @@ const Links: Array<{
   },
   {
     href: "/about",
-    label: "About Us",
+    label: "About",
   },
   {
     href: "/themes",

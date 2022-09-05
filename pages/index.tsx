@@ -3,6 +3,7 @@ import MainPage from "../components/MainPage";
 import Speakers from "../components/Speaker";
 import Tracks from "../components/Tracks";
 import Committee from "../components/Committee";
+import About1 from "../components/about1";
 import Reg from "../components/Reg";
 
 // const Home: NextPage = () => {
@@ -60,10 +61,13 @@ const Home: NextPage = () => {
   return (
     <>
       <MainPage />
+      <About1/>
       <Tracks />
+
       <Committee />
       <Speakers />
       <Reg />
+      
     </>
   );
 };
