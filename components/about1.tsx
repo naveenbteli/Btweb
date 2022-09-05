@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @next/next/no-html-link-for-pages */
 import React from "react";
-
+import type { NextPage } from "next";
 const about1 = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const about1 = () => {
         <img
           className="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
           src="https://www.educationworld.in/wp-content/uploads/2013/06/Untitled-design-4-1.jpg"
-          alt="Couple on a bed with a dog"
+          alt="rvce"
         />
 
         <div className="hidden sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-gray-900 sm:to-transparent"></div>
