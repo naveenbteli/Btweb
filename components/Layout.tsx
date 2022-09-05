@@ -14,7 +14,7 @@ const Links: Array<{
   },
   {
     href: "/about",
-    label: "About",
+    label: "About Us",
   },
   {
     href: "/themes",
@@ -138,7 +138,7 @@ const NavBar = () => {
                   </svg>
                 </button>
               </Menu.Target>
-              <Menu.Label>Goto</Menu.Label>
+              <Menu.Label></Menu.Label>
               <Menu.Dropdown>
                 {Links.map((link) => (
                   <Menu.Item key={link.label}>
@@ -160,8 +160,8 @@ const NavBar = () => {
 
 const Footer = () => {
   return (
-    <footer className="static bottom-0 w-[100%] ">
-      <div className="mx-auto flex max-w-screen-xl flex-col items-center px-4 py-16 sm:px-6 lg:block lg:px-8">
+    <footer className="static bottom-0 w-[100%] bg-[0d111f]">
+      <div className=" mx-auto flex max-w-screen-xl flex-col items-center px-4 py-16 sm:px-6 lg:block lg:px-8">
         <Link href="/">
           <a className="flex items-center justify-items-center" href="/">
             <Image
@@ -172,8 +172,8 @@ const Footer = () => {
             />
           </a>
         </Link>
-        <div className="mt-8 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between">
-          <p className="text-xs text-white-500 font-bold">
+        <div className=" mt-8 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between">
+          <p className="text-xs text-white-500 font-bold ">
             &copy; 2022
             {new Date().getFullYear() === 2022
               ? ""
@@ -207,6 +207,7 @@ const Footer = () => {
 const Layout = ({ children }: any) => {
   return (
     <AppShell
+   
       padding="md"
       header={
         <Header height={70}>

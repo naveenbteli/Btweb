@@ -23,7 +23,7 @@ const Tracks = () => {
     <aside className="bg-[#0D1117] min-h-screen">
       <div className="p-8 md:p-12 lg:px-16 lg:py-24">
         <h1 className="text-6xl mb-3 leading-snug text-transparent font-semibold bg-clip-text bg-gradient-to-r from-green-200 via-green-300 to-blue-500">
-          Tracks
+          Conference Themes 
         </h1>
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-1 place-items-start gap-8">

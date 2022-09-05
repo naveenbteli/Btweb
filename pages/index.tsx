@@ -63,7 +63,6 @@ const Home: NextPage = () => {
       <MainPage />
       <About1/>
       <Tracks />
-
       <Committee />
       <Speakers />
       <Reg />
