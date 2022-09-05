@@ -15,7 +15,7 @@ const MainPage = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-600 lg:text-7xl"
+              className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-600 lg:text-7xl font-poppins"
             >
               International Conference on Artificial Intelligence and Machine
               Learning in BIOSCIENCES
