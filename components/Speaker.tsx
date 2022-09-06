@@ -29,7 +29,7 @@ const Speakers = () => {
           <h1 className="text-6xl mb-3 leading-snug text-transparent font-semibold bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
             Speakers
           </h1>
-          <div className="flex flex-col items-center justify-around gap-8 lg:flex-row">
+          <div className="flex flex-col items-center justify-around gap-8 lg:flex-row lg:pl-16">
             <div>
               <Tabs.List>
                 <Tabs.Tab value="gallery">Day-1</Tabs.Tab>

@@ -28,4 +28,6 @@ const CustomAvatar = () => {
   );
 };
 
-export default CustomAvatar;
+
+export default CustomAvatar ;
+  

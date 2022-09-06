@@ -28,13 +28,13 @@ const Links: Array<{
     href: "/speakers",
     label: "Speakers",
   },
-  {
-    href: "/partners",
-    label: "Partners",
-  },
+  // {
+  //   href: "/partners",
+  //   label: "Partners",
+  // },
   {
     href: "/register",
-    label: "Registration",
+    label: "Call For Papers",
   },
   {
     href: "/schedule",

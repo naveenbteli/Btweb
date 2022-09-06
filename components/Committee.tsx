@@ -13,11 +13,11 @@ export default function Committee() {
             <Accordion.Item value="customization">
               <Accordion.Control>Chief Patron</Accordion.Control>
               <Accordion.Panel>
-                <div className="grid grid-cols-1 place-items-start gap-8 lg:grid-cols-4 ">
+                <div className="grid grid-cols-1  place-items-center gap-8  ">
                   <CustomAvatar />
+                  {/* <CustomAvatar />
                   <CustomAvatar />
-                  <CustomAvatar />
-                  <CustomAvatar />
+                  <CustomAvatar /> */}
                 </div>
               </Accordion.Panel>
             </Accordion.Item>

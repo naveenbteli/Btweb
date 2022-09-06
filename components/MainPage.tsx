@@ -65,7 +65,10 @@ const MainPage = () => {
             autoplay
             loop
             // src="https://assets2.lottiefiles.com/private_files/lf30_7gz6mq4o.json"
-            src="https://assets2.lottiefiles.com/private_files/lf30_m075yjya.json"
+           // src="https://assets2.lottiefiles.com/private_files/lf30_m075yjya.json"
+            //src="https://assets8.lottiefiles.com/packages/lf20_kfuw1wey.json"
+           // src="https://assets8.lottiefiles.com/packages/lf20_zrqthn6o.json"
+           src="https://assets10.lottiefiles.com/private_files/lf30_m075yjya.json"
             style={{ height: "100%", width: "100%" }}
             className="asset"
             speed={0.5}

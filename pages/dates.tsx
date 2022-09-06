@@ -5,33 +5,46 @@ const dates: Array<{
   date: string;
   title: string;
 }> = [
+  // {
+  //   date: "23rd of May 2022",
+  //   title: "Call for abstracts",
+  // },
+  // {
+  //   date: "27th of July, 2022",
+  //   title: "Last day for abstract submissions",
+  // },
+  // {
+  //   date: "27th of July, 2022 to 17th of August, 2022",
+  //   title: "Screening Process",
+  // },
+  // {
+  //   date: "17th of August, 2022",
+  //   title: "Acceptance Notification",
+  // },
+  // {
+  //   date: "17th of August, 2022",
+  //   title: "Registration for the conference",
+  // },
+ 
   {
-    date: "23rd of May 2022",
-    title: "Call for abstracts",
+    date: " 30th of September, 2022",
+    title: "Abstract  submission",
   },
   {
-    date: "27th of July, 2022",
-    title: "Last day for abstract submissions",
-  },
-  {
-    date: "27th of July, 2022 to 17th of August, 2022",
-    title: "Screening Process",
-  },
-  {
-    date: "17th of August, 2022",
+    date: "07th of October, 2022",
     title: "Acceptance Notification",
   },
   {
-    date: "17th of August, 2022",
-    title: "Registration for the conference",
-  },
-  {
-    date: "31st of August, 2022",
+    date: "14th of  October 2022",
     title: "Registration deadline for the conference",
   },
   {
-    date: " 25th of September, 2022",
-    title: "Technical Paper submission",
+    date: "31st of  October 2022",
+    title: "Oral and poster-related proceedings",
+  },
+  {
+    date: "15th of  November, 2022",
+    title: "Technical paper submission",
   },
   {
     date: "8th, 9th & 10th of December, 2022",
@@ -49,9 +62,9 @@ const Dates: NextPage = () => {
       {/* //https://www.bioinnovationcentre.com/storage/app/media/images/logo2.png */}
       <aside className="grid place-items-center overflow-hidden bg-[#0d1117]">
         <section className="text-white">
-          <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 bg-gray-900/50">
+          <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 bg-[#0d1117]">
             <div className="max-w-lg mx-auto text-center">
-              <h2 className="text-3xl font-bold sm:text-4xl">
+              <h2 className="text-3xl font-bold sm:text-4xl text-transparent font-semibold bg-clip-text bg-gradient-to-bl from-blue-500 via-yellow-500 pb-8">
                 IMPORTANT DATES
               </h2>
             </div>

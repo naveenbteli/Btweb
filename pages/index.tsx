@@ -5,6 +5,7 @@ import Tracks from "../components/Tracks";
 import Committee from "../components/Committee";
 import About1 from "../components/about1";
 import Reg from "../components/Reg";
+import Dates from "../pages/dates";
 
 // const Home: NextPage = () => {
 //   return (
@@ -61,12 +62,14 @@ const Home: NextPage = () => {
   return (
     <>
     <div className="bg=[#0d1117]">
-    <MainPage />
+      <MainPage />
       <About1/>
       <Tracks />
+      <Reg/>
+      <Dates/>
       <Committee />
       <Speakers />
-      <Reg />
+     
       
     </div>
       
