@@ -9,7 +9,7 @@ const CustomAvatar = () => {
         <div className="flex flex-col items-center justify-between">
           <div>
             <Avatar
-              src="https://ik.imagekit.io/tf4mccdje/prajwal_Mjvs5REg4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662013248173"
+              src="https://www.ssmrv.edu.in/wp-content/uploads/2020/11/Dr.-M.P-Shyam-300x223.png"
               alt="no image here"
               color="indigo"
               size={200}
@@ -17,9 +17,9 @@ const CustomAvatar = () => {
             />
           </div>
           <div>
-            <h6 className="mt-2 font-bold">Naveen</h6>
+            <h6 className="mt-2 font-bold">Dr. M. P. Shyam</h6>
             <p className="hidden sm:mt-1 sm:text-sm sm:text-gray-600 sm:block">
-              cdfsfdvfd
+            President, RSST
             </p>
           </div>
         </div>

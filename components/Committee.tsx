@@ -22,7 +22,7 @@ export default function Committee() {
               </Accordion.Panel>
             </Accordion.Item>
 
-            <Accordion.Item value="flexibility">
+            <Accordion.Item value="flexibility" >
               <Accordion.Control>Patron</Accordion.Control>
               <Accordion.Panel>
                 <div className="grid grid-cols-1 place-items-start gap-8 lg:grid-cols-4 ">
@@ -35,7 +35,7 @@ export default function Committee() {
             </Accordion.Item>
 
             <Accordion.Item value="focus-ring">
-              <Accordion.Control>Patron</Accordion.Control>
+              <Accordion.Control>Advisory Committee</Accordion.Control>
               <Accordion.Panel>
                 <div className="grid grid-cols-1 place-items-start gap-8 lg:grid-cols-4 ">
                   <CustomAvatar />

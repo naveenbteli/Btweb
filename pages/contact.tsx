@@ -20,16 +20,18 @@ function contact() {
               <div className="lg:py-24">
                 <h2 className="text-5xl font-bold sm:text-4xl">Contact Us</h2>
                 <p className="mt-4 font-bold bg-gray-900/50 w-fit p-2">
-                  Email Address
+                  Dr. Vidya Niranjan
+                </p>
+
+                <p className="mt-4 font-bold bg-gray-900/50 w-fit p-2">
+                  Conference Email: bioaiml2022@rvce.edu.in
                 </p>
                 <p className="mt-4 font-bold bg-gray-900/50 w-fit p-2">
-                  bioaiml2022@rvce.edu.in
+                  Email ID: vidya.n@rvce.edu.in
                 </p>
+
                 <p className="mt-4 font-bold bg-gray-900/50 w-fit p-2">
-                  Phone Number
-                </p>
-                <p className="mt-4 font-bold bg-gray-900/50 w-fit p-2">
-                  (123) 456-7890
+                  Phone No. : +91 97415 77756/ +91 99454 65657
                 </p>
                 <p className="text-2xl font-bold">
                   R. V. College of Engineering

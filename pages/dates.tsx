@@ -47,7 +47,7 @@ const Dates: NextPage = () => {
   return (
     <>
       {/* //https://www.bioinnovationcentre.com/storage/app/media/images/logo2.png */}
-      <aside className="grid place-items-center overflow-hidden bg-[url(https://www.educationworld.in/wp-content/uploads/2013/06/Untitled-design-4-1.jpg)] bg-center bg-no-repeat bg-cover min-h-screen">
+      <aside className="grid place-items-center overflow-hidden bg-[#0d1117]">
         <section className="text-white">
           <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8 bg-gray-900/50">
             <div className="max-w-lg mx-auto text-center">

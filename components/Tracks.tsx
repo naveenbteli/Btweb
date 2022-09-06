@@ -5,16 +5,16 @@ import { Controls, Player } from "@lottiefiles/react-lottie-player";
 
 const tracks = [
   {
-    name: "Diagnostics and Diseases in HPCC",
-    description: "Track 1 description",
+    name: "Diseases and Diagnostics",
+    description: "Disease Detection and Prevention, Therapeutic agents, Correction of genetic diseases  Forensic medicine, Fertility control    ",
   },
   {
-    name: "Artificial Intelligence and Machine Learning in Genomics",
-    description: "Track 2 description",
+    name: "Genomics for Drug discovery",
+    description: "GWAS, Exome, Gene Essentiality, Whole Genome Sequence     ",
   },
   {
-    name: "Drug Discovery",
-    description: "Track 3 description",
+    name: "Agriculture, Food and Nutrition",
+    description: "Green biotechnology, Microbial, Fermentation, Nutrition, Crop biotechnology ",
   },
 ];
 
